@@ -4,15 +4,17 @@ function Header() {
   return (
     <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center px-6 lg:px-12">
-        {/* Logo and Name */}
-        <a className="flex items-center space-x-3" href="/">
-          <img src="/logo.png" alt="Logo" className="h-12 w-12" />
-          <h1 className="text-3xl font-extrabold tracking-tight">
+        <a className="flex items-center space-x-3 " href="/">
+          <img
+            src="/img/foto-personal.jpeg"
+            alt="Logo"
+            className="h-12 w-12 rounded-full"
+          />
+          <h1 className="text-3xl font-extrabold tracking-tight hover:text-blue-900">
             Jhonnier De la Cruz
           </h1>
         </a>
 
-        {/* Navigation Menu */}
         <nav className="hidden lg:flex space-x-8">
           <a
             href="/about-me"
@@ -33,19 +35,13 @@ function Header() {
             Contact
           </a>
           <a
-            href="#testimonials"
+            href="/testimonials"
             className="text-white font-medium hover:text-blue-300 transition-colors duration-200"
           >
             Testimonials
           </a>
           <a
-            href="#blog"
-            className="text-white font-medium hover:text-blue-300 transition-colors duration-200"
-          >
-            Blog
-          </a>
-          <a
-            href="#faq"
+            href="/faq"
             className="text-white font-medium hover:text-blue-300 transition-colors duration-200"
           >
             FAQ

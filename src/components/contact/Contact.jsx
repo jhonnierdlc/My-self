@@ -14,13 +14,11 @@ function Contact() {
           </h3>
 
           <div className="space-y-6">
-            {/* Teléfono */}
             <div className="flex items-center space-x-4">
               <span className="text-blue-600 text-xl font-semibold">📞</span>
               <span className="text-lg text-gray-700">+57 3045467006</span>
             </div>
 
-            {/* Correo Electrónico */}
             <div className="flex items-center space-x-4">
               <span className="text-blue-600 text-xl font-semibold">📧</span>
               <span className="text-lg text-gray-700">
@@ -28,7 +26,18 @@ function Contact() {
               </span>
             </div>
 
-            {/* Dirección */}
+            <div className="flex items-center space-x-4">
+              <span className="text-blue-600 text-xl font-semibold">🔗</span>
+              <a
+                href="https://www.linkedin.com/in/jhonnierdlc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg text-blue-600 hover:underline"
+              >
+                Linkedin
+              </a>
+            </div>
+
             <div className="flex items-center space-x-4">
               <span className="text-blue-600 text-xl font-semibold">📍</span>
               <span className="text-lg text-gray-700">

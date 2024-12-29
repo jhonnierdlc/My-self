@@ -24,7 +24,7 @@ function Footer() {
             Contact
           </a>
           <a
-            href="#faq"
+            href="/faq"
             className="text-white font-medium hover:text-blue-300 transition-colors duration-200"
           >
             FAQ
@@ -49,7 +49,7 @@ function Footer() {
 
         <div className="flex space-x-6 mb-4">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/JhonnierDlc"
             className="text-white hover:text-blue-300 transition-colors duration-200"
           >
             <svg
@@ -62,7 +62,7 @@ function Footer() {
             </svg>
           </a>
           <a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/jhonnierdlc/"
             className="text-white hover:text-blue-300 transition-colors duration-200"
           >
             <svg
@@ -71,7 +71,7 @@ function Footer() {
               viewBox="0 0 24 24"
               className="w-6 h-6"
             >
-              <path d="M23 3a10.7 10.7 0 0 1-3.07.84A4.48 4.48 0 0 0 22.4 1.4a10.64 10.64 0 0 1-3.46 1.32 4.5 4.5 0 0 0-7.64 4.1A12.7 12.7 0 0 1 1.67 2.09a4.48 4.48 0 0 0 1.39 6.03A4.47 4.47 0 0 1 1 7.68v.06a4.5 4.5 0 0 0 3.62 4.42c-.73.02-1.46-.07-2.14-.19a4.5 4.5 0 0 0 4.19 3.11A9 9 0 0 1 0 19.28a12.67 12.67 0 0 0 6.75 1.98c8.12 0 12.59-6.72 12.59-12.59 0-.19 0-.39-.02-.58A8.8 8.8 0 0 0 23 3z" />
+              <path d="M22.23 0H1.77C.79 0 0 .774 0 1.727v20.545C0 23.226.79 24 1.77 24h20.46c.98 0 1.77-.774 1.77-1.728V1.727C24 .774 23.21 0 22.23 0zM7.12 20.452H3.56V9h3.56v11.452zM5.34 7.635c-1.14 0-1.87-.76-1.87-1.71 0-.96.74-1.71 1.9-1.71s1.87.75 1.87 1.71c0 .95-.73 1.71-1.9 1.71zm15.11 12.817h-3.55v-5.99c0-1.59-.57-2.675-2-2.675-1.09 0-1.74.737-2.03 1.447-.1.24-.13.567-.13.897v6.32h-3.55s.05-10.26 0-11.453h3.55v1.62c.47-.725 1.31-1.757 3.19-1.757 2.33 0 4.08 1.52 4.08 4.79v6.8z" />
             </svg>
           </a>
         </div>
